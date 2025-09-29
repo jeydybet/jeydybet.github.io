@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Horario</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f8f9fa;
+    }
+    h1 {
+      text-align: center;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: center;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 15px;
+    }
+    th {
+      background-color: #343a40;
+      color: white;
+    }
+    td {
+      background-color: #ffffff;
+      vertical-align: middle;
+      height: 80px;
+    }
+    .hora {
+      font-weight: bold;
+      background-color: #e9ecef;
+      width: 120px;
+    }
+    .curso {
+      font-size: 14px;
+      font-weight: bold;
+      color: #0d47a1;
+    }
+    .aula {
+      font-size: 12px;
+      color: #333;
+    }
+    .btn-regresar {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      text-decoration: none;
+      text-align: center;
+    }
+    .btn-regresar:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>Mi Horario</h1>
+
+  <table>
+    <tr>
+      <th>Hora</th>
+      <th>Lunes</th>
+      <th>Martes</th>
+      <th>Miércoles</th>
+      <th>Jueves</th>
+      <th>Viernes</th>
+    </tr>
+
+    <!-- 7-9 -->
+    <tr>
+      <td class="hora">7:00 - 9:00</td>
+      <td></td>
+      <td>
+        <div class="curso">IIAD56 <br> Base de Datos II (A)</div>
+        <div class="aula">PEPIS Aula 201</div>
+      </td>
+      <td>
+        <div class="curso">IIAD56 <br> Base de Datos II (A)</div>
+        <div class="aula">Lab. de Cómputo</div>
+      </td>
+      <td>
+        <div class="curso">IIAD56 <br> Base de Datos II (A)</div>
+        <div class="aula">Lab. de Cómputo</div>
+      </td>
+      <td></td>
+    </tr>
+
+    <!-- 9-11 -->
+    <tr>
+      <td class="hora">9:00 - 11:00</td>
+      <td>
+        <div class="curso">IIAD54 <br> Sistemas Digitales (A)</div>
+        <div class="aula">PEPIS Aula 201</div>
+      </td>
+      <td>
+        <div class="curso">IIAD55 <br> Redes de Computo I (A)</div>
+        <div class="aula">PEPIS Aula 201</div>
+      </td>
+      <td>
+        <div class="curso">IIAD53 <br> Programación Web (A)</div>
+        <div class="aula">Lab. de Cómputo 7</div>
+      </td>
+      <td rowspan="2">
+        <div class="curso">IIAD55 <br> Redes de Computo I (A)</div>
+        <div class="aula">PEPIS Aula 201</div>
+      </td>
+      <td>
+        <div class="curso">IIAD53 <br> Programación Web (A)</div>
+        <div class="aula">Lab. de Cómputo 7</div>
+      </td>
+    </tr>
+
+    <!-- 11-1 -->
+    <tr>
+      <td class="hora">11:00 - 1:00</td>
+      <td>
+        <div class="curso">IIAD53 <br> Programación Web (A)</div>
+        <div class="aula">PEPIS Aula 201</div>
+      </td>
+      <td>
+        <div class="curso">IIAD54 <br> Sistemas Digitales (A)</div>
+        <div class="aula">Lab. de Cómputo</div>
+      </td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+
+
+    <br><br>
+    <a href="sobre.html">Volver atras</a>
+</body>
+</html>
+
